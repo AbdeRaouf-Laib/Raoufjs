@@ -17,7 +17,7 @@
         let x = true;
         let y = false;
     // Object:
-    /**/ 
+    
         const person = {firstName:"John", lastName:"Doe"};
     // bigint
         let xb = BigInt("123456789012345678901234567890");
