@@ -131,4 +131,15 @@
         }
         logger("laib");
     //there are 2type of function:
-        //function 
+        //function:
+            //it is a returnable function;
+            /* 
+                function name of function(){
+                    ...code...;
+                    return values; 
+                }
+                values = name of function();name of function()
+            */
+        //Procedure:
+            //It is a non-returnable function;
+            //already mentioned;
