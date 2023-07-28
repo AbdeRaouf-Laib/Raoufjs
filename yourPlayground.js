@@ -47,4 +47,77 @@
 // string: "",'',``;
         // "" or '' for add values add ' + ';
         // `` for add values add ${valiues};
-        
+        //exmple:
+            x = "laib";
+            s = 'abderaouf';
+            xx = "Hay" + x;
+            b = `laib ${x}`;
+//swich case condition:
+    // for use swiche case condition:
+        /*switch(...values){
+            case ...compration values:
+                ...code...;
+                ...code...;
+                break; //is important
+            case ...compration values:
+                ...code...;
+                ...code...;
+                break;
+            ...
+            default:                
+                ...code...;
+                break;
+        }*/    
+    //example
+        const day = "thursday";
+        switch(day){
+            case "wednesday":
+                console.log("hhh this day is wednesday");
+                break;
+            case "monday":
+                console.log("this is day is monday");
+                break;
+            default:
+                console.log("this day is thursday");
+                break;
+        }
+//Statements and Expressions values:
+    //Expressions is any code to offer a values
+        //exmaple:
+            3 + 4;
+            1991;
+            const newVar = "raouf"
+    //Statements is any code to not offer a values
+        //example:
+            if(5 == 2){
+                console.log("5 == 2");
+            }
+    /*in ${} we must use the expressions;*/
+// the ternary operator:
+    //is a Expressions conditional and we use for work if and else conditions
+    //for using this condition:
+        /*...values...//Comparison Operator\\ ...comparison values... ? ...code... : ...else code...*/
+        //example:
+            const xxz = 50;
+            50 == 10? console.log("laib") : console.log("raouf");   
+    //We can add this condition in console.log() and ...; 
+// Activating strict mode:
+    //for activate a strict mode we use "use strict" in a biggining of code
+    //strict mode can spot errors
+// Fonction:
+    //This is a block of code for use in your code later
+    //To use we can declare a function and to call it we write the name of the function
+    //for declar the function we must use:
+        /* function ...name of function(){
+            ...code...;
+        }*/
+    //example:
+        function logger(){
+            console.log("laib");
+        }
+    //for call it:
+        // logger();
+    //example:
+        logger();
+    //there are 2type of function:
+        //function
