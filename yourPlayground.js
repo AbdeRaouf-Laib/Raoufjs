@@ -119,5 +119,16 @@
         // logger();
     //example:
         logger();
+    //The function can receive and give the parameter
+        /*function name of funtion(parameter){
+            ...code...;
+        }
+        logger(paramter);
+        */
+    //example:
+        function logger(x){
+            console.log(x);
+        }
+        logger("laib");
     //there are 2type of function:
-        //function
+        //function 
