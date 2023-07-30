@@ -189,11 +189,11 @@
         //type one (letteral methode):
             //define values(function name) = [element0,element1,element2,...];
             //example:
-                const arr1 = [1,2,"laib"];
+                const arr1 = [1,2,4];
         //type tow (function defind in js):
             //define values(function name) = new Array(element0,element1,element2,...);
             //example:
-                const arr2 = new Array(11,2,"laib");
+                const arr2 = new Array("abderaouf","laib");
             //for print this array use this:
                 //console.log((name function));
                 //example:
@@ -204,7 +204,12 @@
                 //name of function.length;
                 //example:
                     let Learr2= arr2.length;
-            
+            //in array we can use multi type:
+                //example:
+                    arr3 = [21,"hay",[10,'a',"laib"]];
+                //the number of elements in this array is 3
+                //the inner array counts one element;
+                 
 
 
 
