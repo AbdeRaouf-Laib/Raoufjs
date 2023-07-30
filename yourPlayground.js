@@ -143,3 +143,37 @@
         //Procedure:
             //It is a non-returnable function;
             //already mentioned;
+    //there are 2 type of function declaration:
+        //type one:
+            //he called a declaration function,already mentioned;
+            //the advantage:
+                //The declaration function can be called it before declaring;
+                //example:
+                    ci();
+                    function ci(){
+                        console.log("yes");
+                    }
+        //type two:
+            //The second declaration is a value declaration and the definition of the function in it,and he called a exprtion function;
+                /*define Value = function(){
+                    ...code...
+                }*/
+            //exmple: 
+                let fu = function(){
+                    console.log("hau");
+                }
+                fu();
+            //the advantage:
+                //The exprtion function cannot be callde before a declaration;
+    //there a 2nd type of function,he called arrow funtion:
+        //he using this:
+            /* define Values = argements => ...c
+
+
+
+
+
+
+
+
+
