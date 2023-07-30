@@ -209,7 +209,26 @@
                     arr3 = [21,"hay",[10,'a',"laib"]];
                 //the number of elements in this array is 3
                 //the inner array counts one element;
-                 
+                //in array we can chenge the elements and we if did defind array const;                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
