@@ -5,8 +5,7 @@
     //Programmers do not support it
         var stringHello = 'Hello, World!';
         age = 18;
-// type of value: number ,string ,boolean, object, Bigint, Undefined, Null, Symbol;
-    
+// type of value: number ,string ,boolean, object, Bigint, Undefined, Null, Symbol;   
     // Numbers:
         let length = 16;
         let weight = 7.5;
@@ -44,7 +43,7 @@
         if(d >= (a ** b) || a !== b - c){
             a = b = "No!!";
         }
-// string: "",'',``;
+//string: "",'',``;
         // "" or '' for add values add ' + ';
         // `` for add values add ${valiues};
         //exmple:
@@ -93,7 +92,7 @@
                 console.log("5 == 2");
             }
     /*in ${} we must use the expressions;*/
-// the ternary operator:
+//the ternary operator:
     //is a Expressions conditional and we use for work if and else conditions
     //for using this condition:
         /*...values...//Comparison Operator\\ ...comparison values... ? ...code... : ...else code...*/
@@ -148,6 +147,7 @@
             //he called a declaration function,already mentioned;
             //the advantage:
                 //The declaration function can be called it before declaring;
+                //he can be using this keyworld;
                 //example:
                     ci();
                     function ci(){
@@ -165,15 +165,24 @@
                 fu();
             //the advantage:
                 //The exprtion function cannot be callde before a declaration;
-    //there a 2nd type of function,he called arrow funtion:
+                //he can be using this keyworld;
+    //there a 2nd type of function,he called arrow funtion,is a expretion function:
         //he using this:
-            /* define Values = argements => ...c
+            /* 
+            for a multiple ligne of code:
+                define Values = argements =>
+                {
+                    ...code...
+                    ...code...
+                    returne;
+                }
+            for a one ligne of code:
+                define Values = argements => ...codereturn...;
+            for a multiple of a argemant:
+              define Values = (1st argements,2nd argements) => ...codereturn...;  
 
-
-
-
-
-
-
-
-
+            */    
+            
+            //the advantage:
+                //he cannot be using this keyworld;
+                
