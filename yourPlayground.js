@@ -227,7 +227,14 @@
                 //name of function.shift();
                 //example:
                     arr1.shift();
-
+            //to find out the index of elements or the existe of elmentes:
+                //name of array.indexOf(elements);
+                    //example:
+                        arr1.indexOf(1);
+            //to find out the exist of element at array(true or false)):
+                //name of array.includes();
+                    //example:
+                        arr2.includes();
 
 
 
