@@ -180,9 +180,45 @@
                 define Values = argements => ...codereturn...;
             for a multiple of a argemant:
               define Values = (1st argements,2nd argements) => ...codereturn...;  
-
-            */    
-            
+            */              
             //the advantage:
                 //he cannot be using this keyworld;
+    //he can a called a 2nd function with a 1st futction;
+//arrays
+    //for using arrays we must do this for 2 type:
+        //type one (letteral methode):
+            //define values(function name) = [element0,element1,element2,...];
+            //example:
+                const arr1 = [1,2,"laib"];
+        //type tow (function defind in js):
+            //define values(function name) = new Array(element0,element1,element2,...);
+            //example:
+                const arr2 = new Array(11,2,"laib");
+            //for print this array use this:
+                //console.log((name function));
+                //example:
+                    console.log(arr1);
+                    //we can a print the only one values of array
+                        console.log(arr[0]); 
+            //to find out the number of elements,we can use a function defind in js:
+                //name of function.length;
+                //example:
+                    let Learr2= arr2.length;
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 
