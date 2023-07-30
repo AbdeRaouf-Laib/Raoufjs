@@ -211,16 +211,22 @@
                 //the inner array counts one element;
                 //in array we can chenge the elements and we if did defind array const;                
                 //we cannot reassagenemt the array
-            //for adding a values in the ending array and length the array:
+            //To add values at the end of the array and the length of the array:
                 //name of function.push(values);
                 //example:
                     arr1.push(2);
-            //for adding a values in biggining array anf legnth the array:
+            //for adding a values at beginning of array and length the array:
                 //name of function.unshift(values);
                 //example:
                     arr2.unshift("laibn");
-                
-
+            //for removing end element of array and display it:
+                //name of function.pop();                  
+                //example:
+                    arr3.pop();
+            //for removing the beginning element of array and display it:
+                //name of function.shift();
+                //example:
+                    arr1.shift();
 
 
 
