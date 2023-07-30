@@ -210,9 +210,11 @@
                 //the number of elements in this array is 3
                 //the inner array counts one element;
                 //in array we can chenge the elements and we if did defind array const;                
-                
-
-
+                //we cannot reassagenemt the array
+            //for adding a values in array and length the array:
+                //name of function.push(values);
+                //example:
+                    arr1.push(2);
 
 
 
