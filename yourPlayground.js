@@ -1,4 +1,4 @@
-// let Vname , const Vname , var Vname, Vname;
+/*// let Vname , const Vname , var Vname, Vname;
     let food = "banana";
     let prix = 20;
     const persent = 0.2;
@@ -235,8 +235,27 @@
                 //name of array.includes();
                     //example:
                         arr2.includes();
-
-
+            //to find out the end index of element at array:
+                //name of array.lastindexOf(element);
+                    //the difference between indexOf and lastindexOf is displaying the element;
+                    //example:
+                        arr2.lastIndexOf(2)
+            //to sorting the array:
+                //name of array.sort();
+                    //example:
+                        arr1.sort();
+                //But sorting the array is by counting the first letters;
+                    //example:
+                        //arr5 = [1,2,12,5,14,55];
+                        //the sorting of this array is:
+                            //arr5 = [1,12,14,2,5,55];
+                        //arr6 = ["laib","abderaouf","lain","ace"];
+                        //the sorting of this array is:
+                            //arr6 = ["abderaouf","ace","laib","lain"];
+            //to reve */
+            let arr6 = ["laib","abderaouf","lain","ace","raouf"];
+            console.log(arr6.reverse());
+            
 
 
 
