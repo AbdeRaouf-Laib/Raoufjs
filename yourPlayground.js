@@ -1,4 +1,4 @@
-/*// let Vname , const Vname , var Vname, Vname;
+/// let Vname , const Vname , var Vname, Vname;
     let food = "banana";
     let prix = 20;
     const persent = 0.2;
@@ -153,6 +153,7 @@
                     function ci(){
                         console.log("yes");
                     }
+            
         //type two:
             //The second declaration is a value declaration and the definition of the function in it,and he called a exprtion function;
                 /*define Value = function(){
@@ -175,7 +176,8 @@
                     ...code...
                     ...code...
                     returne;
-                }
+                } 
+            
             for a one ligne of code:
                 define Values = argements => ...codereturn...;
             for a multiple of a argemant:
@@ -252,7 +254,7 @@
                         //arr6 = ["laib","abderaouf","lain","ace"];
                         //the sorting of this array is:
                             //arr6 = ["abderaouf","ace","laib","lain"];
-            //to reve */
+            //to reve 
             let arr6 = ["laib","abderaouf","lain","ace","raouf"];
             console.log(arr6.reverse());
             
