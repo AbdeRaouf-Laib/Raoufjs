@@ -12,6 +12,9 @@
     // Strings:
         let color = "Yellow";
         let lastName = "Johnson";
+        //To show the length of this string we can use: .length methonde:
+            //example:
+                let stringlng = lastName.length
     // Booleans
         let x = true;
         let y = false;
@@ -137,7 +140,7 @@
                     ...code...;
                     return values; 
                 }
-                values = name of function();name of function()
+                values = name of function();
             */
         //Procedure:
             //It is a non-returnable function;
@@ -168,7 +171,7 @@
                 //The exprtion function cannot be callde before a declaration;
                 //he can be using this keyworld;
     //there a 2nd type of function,he called arrow funtion,is a expretion function:
-        //he using this:
+        //we must using this:
             /* 
             for a multiple ligne of code:
                 define Values = argements =>
@@ -184,10 +187,10 @@
               define Values = (1st argements,2nd argements) => ...codereturn...;  
             */              
             //the advantage:
-                //he cannot be using this keyworld;
-    //he can a called a 2nd function with a 1st futction;
+                //he cannot be using "this" keyworld;
+    //we can a called a 2nd function with a 1st futction;
 //arrays
-    //for using arrays we must do this for 2 type:
+    //to using arrays we must do this for 2 type:
         //type one (letteral methode):
             //define values(function name) = [element0,element1,element2,...];
             //example:
@@ -196,7 +199,7 @@
             //define values(function name) = new Array(element0,element1,element2,...);
             //example:
                 const arr2 = new Array("abderaouf","laib");
-            //for print this array use this:
+            //To print this array use this:
                 //console.log((name function));
                 //example:
                     console.log(arr1);
@@ -257,33 +260,167 @@
             //to reve 
             let arr6 = ["laib","abderaouf","lain","ace","raouf"];
             console.log(arr6.reverse());
-            
+//string:
+    //Methode:
+        //string Methode
+            //.length To show how many letter on string
+            //.charAt() To show a spicefed character on string
+            //.chatCodeAt() To show code of spicefied character on string
+            //.at(2) Get the third letter of name
+            //.text.slice(7, 13) to extracting a part of a string
+            //.substring() is similar to slice
+            //.substr() is similar to slice
+            //.toUpperCase() to convert the char of string into upper case
+            //.toLowerCase() to convert the char of string into Lower case
+            //.concat() to concat tow string
+            //.trim() to remove spaces in the bigging and in the ending of string
+            //.trimStart() remove space only in the bigging of the string 
+            //.trimEnd() remove space only in the ending of the string 
+            //.padStart(par1,par2) par1 of how many add par2, par2 the sting should be add in the start
+            //.padEnd(par1,par2) par1 of how many add par2, par2 the sting should be add in the start
+            //.repeat(par1) to repeat the string 
+            //.replace() to replace between tow string
+                // /.../i we must add this if the sting in not same in the of char
+                // /.../g To replace all matches, use a regular expression
+            //.replaceAll() The replaceAll() method allows you to specify a regular expression instead of a string to be replaced.
+            //.split() to convert string into an array
+        //string search()
+            //.indexOf(par1 ,par2) to show index of this string 
+            //.lastIndexOf(par1 ,par2(is the starting index to search)) to show the last index of string is gives
+            //.match(par1) how much par1 in the string
+            //.matchAll() this method returns an iterator containing the results of matching a string against a string
+            //.includes() this method returns true if a string contains a specified value.
+            //.startsWith() this method returns true if a string begins with a specified value.
+            //.endsWith() The endsWith() method returns true if a string ends with a specified value.
+//Array:
+    //.puch() to add an element into array
+    //.length to show the number of element 
+    // new Array() is a Keys words to create Array
+    //.isArray to definding a object from Array
+    //.toString to covert an Array into string 
+    //.at(index) get the element of index in Array is same as []
+    //.join(arg) convert an Array into string and adding arg between the element of Array
+    //.pop() remove the last elements of Array
+    //.shift() remove the first element in Array and shift all other elements to a lower index
+    //.unshift() adds a new elements to an Array at the beginning and unshift older elements to upper index
+    //Array1.concat(Array2) concat Array1 with Array2 /* we can concat tree array and with one value*/
+    //.copyWithin(index1,index2,...) copy element of index1 to index2 and ...
+    //.flat()  method creates a new array with sub-array elements concatenated to a specified depth.
+    //The splice(index, numOfElemWeCanDelet, element) method adds new items to an array.
+    //The slice() method slices out a piece of an array.
+    //.sort sorting Array 
+    //.reverse() revres sorting Array
+    //.toSorted() sorted the array without creating new one
+    //.toReversed() revers the array without creating new one 
+    //.sort(function(a, b){return b - a}) sorting num Array
+        //function(a, b){return a - b} this function is return 0 or possitive or negative number 
+    //.sort(function(){return 0.5 - Math.random()}) Sorting an Array in Random Order
+    //The Fisher Yates Method:
+        /* const points = [40, 100, 1, 5, 25, 10];
+            for (let i = points.length -1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i+1));
+            let k = points[i];
+            points[i] = points[j];
+            points[j] = k;
+            }
+        */
+    //You can use Math.min.apply to find the lowest number in an array:
+    //You can use Math.max.apply to find the highest number in an array:
+    /*Array forEach
+        Array map()
+        Array flatMap()
+        Array filter()
+        Array reduce()
+        Array reduceRight()
 
+        Basic Array Methods
+        Array Search Methods
+        Array Sort Methods
+//Date:
+    /*
+    Creating Date Objects
+        Date objects are created with the new Date() constructor.
 
+        There are 9 ways to create a new date object:
 
+        new Date()
+        new Date(date string)
 
+        new Date(year,month)
+        new Date(year,month,day)
+        new Date(year,month,day,hours)
+        new Date(year,month,day,hours,minutes)
+        new Date(year,month,day,hours,minutes,seconds)
+        new Date(year,month,day,hours,minutes,seconds,ms)
 
+        new Date(milliseconds)
+    */
+    //Date.parse() method to convert it to milliseconds.
 
+    /*
+    Method	                Description
 
+    getFullYear()	        Get year as a four digit number (yyyy)
+    getMonth()	            Get month as a number (0-11)
+    getDate()	            Get day as a number (1-31)
+    getDay()	            Get weekday as a number (0-6)
+    getHours()              Get hour (0-23)
+    getMinutes()	        Get minute (0-59)
+    getSeconds()	        Get second (0-59)
+    getMilliseconds()	    Get millisecond (0-999)
+    getTime()	            Get time (milliseconds since January 1, 1970)*/
+//The if else statements:
+    /*
+    if (time < 10) {
+      greeting = "Good morning";
+    } else if (time < 20) {
+      greeting = "Good day";
+    } else {
+      greeting = "Good evening";
+    }*/
+//loop in JS:
+    // for;
+    // for in;
+    // for of;
+    // while;
+    // do while;
 
+//The sets in JS:
+/*
+    Method	        Description
 
+    new Set()	    Creates a new Set
+    add()	        Adds a new element to the Set
+    delete()	    Removes an element from a Set
+    has()	        Returns true if a value exists in the Set
+    forEach()	    Invokes a callback for each element in the Set
+    values()	    Returns an iterator with all the values in a Set
+    Property	    Description
+    size	        Returns the number of elements in a Set
+*/
 
+//The maps in JS:
+/*
+    Method	        Description
 
+    new Map()	    Creates a new Map
+    set()	        Sets the value for a key in a Map
+    get()	        Gets the value for a key in a Map
+    delete()	    Removes a Map element specified by the key
+    has()       	Returns true if a key exists in a Map
+    forEach()	    Calls a function for each key/value pair in a Map
+    entries()	    Returns an iterator with the [key, value] pairs in a Map
+    Property	    Description
+    size	        Returns the number of elements in a Map
+*/
 
+//ERROR in JS:
+/*
+    The try statement defines a code block to run (to try).
 
+    The catch statement defines a code block to handle any error.
 
+    The finally statement defines a code block to run regardless of the result.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
+    The throw statement defines a custom error.
+*/
